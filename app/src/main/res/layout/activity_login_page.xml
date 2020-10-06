@@ -63,6 +63,7 @@
         android:layout_height="41dp"
         android:background="@drawable/mybutton"
         android:text="Login"
+        android:onClick="click"
         android:textColor="#FFFFFF"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"

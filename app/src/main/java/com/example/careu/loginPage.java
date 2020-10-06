@@ -17,12 +17,17 @@ public class loginPage extends AppCompatActivity {
 
         btnlogin = findViewById(R.id.btnLog);
 
-        btnlogin.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(getApplicationContext(),homePage.class);
-                startActivity(i);
-            }
-        });
+//        btnlogin.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent i = new Intent(getApplicationContext(),homePage.class);
+//                startActivity(i);
+//            }
+//        });
+    }
+
+    public void click(View view) {
+        Intent i = new Intent(this,homePage.class);
+        startActivity(i);
     }
 }
