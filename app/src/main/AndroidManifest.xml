@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.careu">
 
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/app_logo"
@@ -9,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".registrationPage"></activity>
+        <activity android:name=".forgetPassword"></activity>
+        <activity android:name=".registrationPage" />
         <activity android:name=".homePage" />
         <activity android:name=".loginPage" />
         <activity android:name=".MainActivity">
